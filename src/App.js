@@ -4,6 +4,7 @@ import Cards from './components/Cards';
 import Navbar from './components/Navbar';
 import Newsletter from './components/Newsletter';
 import Slider from './components/Slider';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Experience />
       <Newsletter />
       <Cards />
-  
+      <Content/>
     </div>
   );
 }
